@@ -1,0 +1,31 @@
+@-moz-document url-prefix(about:blank), url-prefix(about:newtab) {
+  html:not(#ublock0-epicker), html:not(#ublock0-epicker) body, #newtab-customize-overlay {
+    background: #373737!important;
+  }
+}
+
+
+@-moz-document url(about:newtab){
+   body{
+       background-color:#373737!important;
+       color:#D1D1D1!important;
+      }
+   .card, .prefs-pane .sidebar {
+      background-color:#202020!important;
+   }
+   #snippets, .section-title, .snippetContainer {
+      color: #AEAEAE!important;
+   }
+   .contentSearchSuggestionTable, .contentSearchSuggestionsList{
+      color:black!important;
+   }
+   .display-item {color: #D1D1D1!important;}
+   #aboutMozilla::before {filter:invert(100%)!important;}
+   #searchText{
+      background:#474749!important;
+      border-radius: 4px;
+      border: 1px solid #262627;
+      box-shadow: none;
+   }
+   #searchSubmit, #launcher {display:none!important;}
+}
