@@ -1,11 +1,11 @@
-@-moz-document url-prefix(about:blank), url-prefix(about:newtab) {
+@-moz-document url-prefix(about:blank), url-prefix(about:newtab), url-prefix(about:home) {
   html:not(#ublock0-epicker), html:not(#ublock0-epicker) body, #newtab-customize-overlay {
     background: #373737!important;
   }
 }
 
 
-@-moz-document url(about:newtab){
+@-moz-document url(about:newtab), url(about:home), url(about:blank) {
    body{
        background-color:#373737!important;
        color:#D1D1D1!important;
