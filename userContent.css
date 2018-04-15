@@ -6,26 +6,38 @@
 
 
 @-moz-document url(about:newtab), url(about:home), url(about:blank) {
-   body{
+  
+   body {
        background-color:#373737!important;
        color:#D1D1D1!important;
       }
+  
+  .outer-wrapper {
+    background-color: #373737!important;
+  }
+  
    .card, .prefs-pane .sidebar {
       background-color:#202020!important;
    }
-   #snippets, .section-title, .snippetContainer {
+  
+   #snippets, .section-title, .snippetContainer, .card-title, .card-description {
       color: #AEAEAE!important;
    }
+  
    .contentSearchSuggestionTable, .contentSearchSuggestionsList{
       color:black!important;
    }
+  
    .display-item {color: #D1D1D1!important;}
+  
    #aboutMozilla::before {filter:invert(100%)!important;}
-   #searchText{
+   
+  #searchText {
       background:#474749!important;
       border-radius: 4px;
       border: 1px solid #262627;
       box-shadow: none;
    }
+  
    #searchSubmit, #launcher {display:none!important;}
 }
