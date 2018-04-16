@@ -1,12 +1,7 @@
-@-moz-document url(chrome://browser/content/browser.xul)
-{
-   #main-window,
-   browser[type="content-primary"],
-   browser[type="content"],
-   tabbrowser#content,
-   #content,
-   browser[type="content"] > html
-   {
-      background: #373737!important;
-   }
+#browser vbox#appcontent tabbrowser,
+#content,
+#tabbrowser-tabpanels,
+browser[type=content-primary],
+browser[type=content] > html {
+  background: #373737!important;
 }
