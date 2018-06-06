@@ -7,11 +7,6 @@
 
 @-moz-document url(about:newtab), url(about:home), url(about:blank) {
   
-   body {
-       background-color:#373737!important;
-       color:#D1D1D1!important;
-      }
-  
   .outer-wrapper {
     background-color: #373737!important;
   }
