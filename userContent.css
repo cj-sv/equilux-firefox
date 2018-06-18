@@ -35,4 +35,6 @@
    }
   
    #searchSubmit, #launcher {display:none!important;}
+  
+   .top-sites-list .top-site-outer .title span { color:#D1D1D1; }
 }
