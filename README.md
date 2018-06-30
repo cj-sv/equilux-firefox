@@ -22,7 +22,7 @@ Firefox Color makes it easy for anyone to change the look of Firefox. It’s a s
 Install Firefox Test Pilot, enable Firefox Color, then visit the [Equilux-Firefox Color Theme](https://color.firefox.com/?theme=XQAAAALiAAAAAAAAAABBKYhm849SCiazH1KEGccwS-xNVAVaCVx5kzGQz1hr6FLyi3i3N9V7Xg_zoWPRMQm1U7rteYFRBmyDFu-9Bf4vRQcaMjSygQqeFSBdYblHoWKSVrBOGHaBPM5-vZtM0lYjjZmKHtfLlFRsSwfCD_HSk-6HI_3CbqAAPLS0dGOvJrcMYnRFgFxwz3Ao_kzl-qMM-L0lIekz4v_BcxAA). 
 
 ## Extras
-The main color used in the Equilux Theme is #373737, you may change the color to suit other themes by replacing it in userContent and userChrome.
+The main color used in the Equilux Theme is #373737, you may change the color to suit other themes by replacing the --main-color variable in userContent and userChrome.
 * Arc Theme - #29303a
 * Adapta - #263238
 * Pop! - #574e4a
