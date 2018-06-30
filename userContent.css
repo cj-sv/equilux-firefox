@@ -1,6 +1,17 @@
+:root {
+  --equilux: #373737;
+  --arc-dark: #29303a;
+  --adapta-nokto: #263238;
+  --pop: #574e4a;
+  --dark:  #121212;
+
+  /* Main Color */
+  --main-color: var(--equilux);
+}
+
 @-moz-document url-prefix(about:blank), url-prefix(about:newtab), url-prefix(about:home) {
   html:not(#ublock0-epicker), html:not(#ublock0-epicker) body, #newtab-customize-overlay {
-    background: #373737!important;
+    background: var(--main-color) !important;
   }
 }
 
@@ -8,7 +19,7 @@
 @-moz-document url(about:newtab), url(about:home), url(about:blank) {
   
   .outer-wrapper {
-    background-color: #373737!important;
+    background-color: var(--main-color) !important;
   }
   
    .card, .prefs-pane .sidebar {

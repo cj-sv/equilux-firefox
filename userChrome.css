@@ -1,7 +1,18 @@
+:root {
+  --equilux: #373737;
+  --arc-dark: #29303a;
+  --adapta-nokto: #263238;
+  --pop: #574e4a;
+  --dark:  #121212;
+
+  /* Main Color */
+  --main-color: var(--equilux);
+}
+
 #browser vbox#appcontent tabbrowser,
 #content,
 #tabbrowser-tabpanels,
 browser[type=content-primary],
 browser[type=content] > html {
-  background: #373737!important;
+  background: var(--main-color) !important;
 }
